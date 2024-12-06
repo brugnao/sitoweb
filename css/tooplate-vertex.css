@@ -160,7 +160,7 @@ a { color: #fff; text-decoration: none; }
 a:hover {  
     color: black;
     border: none;
-    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.5), -10px -10px 10px #4d0505;
+    box-shadow: 1px 12px 15px rgba(0, 0, 0, 0.5), 0px -3px 10px -1px #4d0505;
  }
 button { cursor: pointer; }
 a, button { transition: all 0.3s ease; }
@@ -264,7 +264,16 @@ span, footer {  line-height: 1.8; }
     box-sizing: border-box;
 }
 
+.divider{
+    height: 50px; display: inline-block;
+    vertical-align: middle;
+    border-left: 3px solid #4d0505;
+    margin: 0 10px;"
+}
+
 /* Brand */
+
+
 .tm-brand {
     position: fixed;
     bottom: 80px;
@@ -273,6 +282,7 @@ span, footer {  line-height: 1.8; }
     height: 240px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 00px;
     background-color: transparent;
     color: #999;
     display: flex;
@@ -315,6 +325,8 @@ span, footer {  line-height: 1.8; }
     padding-bottom: 40px;
     display: block;
     font-size: 20px;
+    width: 100%;
+    vertical-align:bottom;
 }
 
 .nav-link:hover,
@@ -601,7 +613,7 @@ figure.effect-goliath:hover p {
         outline: none;
     }
 
-    .navbar-toggler:hover { color: #99CC99; }
+    .navbar-toggler:hover { color: white; }
 
     .tm-content {
         padding-left: 20px;
