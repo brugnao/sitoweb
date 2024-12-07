@@ -27,7 +27,7 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3498db;
+    border-top-color: white;
 
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -44,7 +44,7 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
         bottom: 5px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #e74c3c;
+        border-top-color: #4d0505;
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -59,7 +59,7 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
         bottom: 15px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #f9c922;
+        border-top-color: white;
 
         -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -275,14 +275,14 @@ span, footer {  line-height: 1.8; }
 
 
 .tm-brand {
-    position: fixed;
+    position: relative;
     bottom: 80px;
     right: 70px;
     width: 300px;
     height: 240px;
-    margin-top: 0;
+    margin-top: 100px;
     margin-bottom: 0;
-    margin-left: 00px;
+    margin-left: 1200px;
     background-color: transparent;
     color: #999;
     display: flex;
